@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Exhibición y vitrinismo en el formato comercial',
+    componenteFormativo: 'Destrezas en el punto de pago',
     descripcionCurso:
-      'La exhibición del surtido en el punto de venta es fundamental para todo tipo de establecimiento comercial. Por esta razón, las empresas deben pensar en cómo organizar adecuadamente sus locales de tal forma que tengan un impacto y una influencia positiva sobre las decisiones de compra por parte de los clientes.',
+      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones que se le asignan a los cajeros en los retail.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,103 +36,83 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '<em>Retail</em>',
+        titulo: 'Recaudo en el punto de pago',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Establecimiento comercial',
+            titulo: 'Base de la caja',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Formatos comerciales',
+            titulo: 'Apertura de la caja',
             hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo: 'Arquitectura del establecimiento',
-            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Surtido',
+        titulo: 'Validación de transacciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Estructura del surtido',
+            titulo: 'Precios',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Planograma o planimetría',
+            titulo: ' Legalidad de medios de pago',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: '<em>Layout</em>',
+            titulo: 'Seguridad y herramientas',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'La exhibición de productos',
+            titulo: 'Excedentes de pago',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: 'Vitrinismo o visual <em>merchandising</em>',
+            titulo: 'Devoluciones',
             hash: 't_2_5',
-          },
-          {
-            numero: '2.6',
-            titulo: '<em>merchandising</em>',
-            hash: 't_2_6',
-          },
-          {
-            numero: '2.7',
-            titulo: 'Señalización comercial',
-            hash: 't_2_7',
-          },
-          {
-            numero: '2.8',
-            titulo: 'Dispositivos de seguridad',
-            hash: 't_2_8',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Muebles en el punto de venta',
+        titulo: 'Empaque de productos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Tipos de muebles',
+            titulo: ' Descripción del empaque',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Rotación de las categorías',
+            titulo: 'Tipos',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Codificación de productos',
+            titulo: 'Normativa y clasificación',
             hash: 't_3_3',
           },
           {
             numero: '3.4',
-            titulo: 'El precio',
+            titulo: 'Técnicas de empaque',
             hash: 't_3_4',
           },
           {
             numero: '3.5',
-            titulo: 'Activación de marca',
+            titulo: 'Empaque de productos según naturaleza',
             hash: 't_3_5',
           },
         ],

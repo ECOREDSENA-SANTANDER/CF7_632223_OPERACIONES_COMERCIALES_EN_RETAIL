@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 La correcta exhibición de productos en un punto de venta es vital para el éxito comercial, ya que afecta la decisión de compra del cliente. Una organización estratégica y una presentación eficaz no solo optimizan el espacio, sino que también mejoran la experiencia de compra y pueden incrementar las ventas. Una planificación adecuada en la disposición del surtido es clave para captar la atención del consumidor y facilitar su búsqueda de productos. A continuación, se presenta la temática relacionada con el componente: 
+    p.mb-5 El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones asignadas a los cajeros en el retail. Los aprendices aprenderán a abrir y cerrar la caja correctamente, validar precios y medios de pago, gestionar la seguridad, manejar excedentes y devoluciones, y empaquetar productos conforme a normativa y técnicas adecuadas, garantizando un servicio eficiente y preciso en el punto de pago. A continuación, se presentan la información general del componente: 
 
     .row.justify-content-center
       .col-lg-12

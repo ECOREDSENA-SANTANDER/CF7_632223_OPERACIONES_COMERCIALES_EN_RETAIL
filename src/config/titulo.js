@@ -1,1 +1,1 @@
-module.exports = 'Exhibición y vitrinismo en el formato comercial'
+module.exports = 'Destrezas en el punto de pago'
