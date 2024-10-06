@@ -61,6 +61,7 @@
 
     
     .row.justify-content-center.align-items-center.fondo3.p-4
+      .py-3
       .col-lg-11
         .tarjeta.tarjeta--gris.p-4.mb-5
           LineaTiempoC.color-secundario(text-small)
@@ -231,11 +232,162 @@
               br
               br
 
+    .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .d-flex.align-items-center.mt-4
+          img.w-card-icon(src="@/assets/curso/tema3/ico5.png")
+          .bg55.py-2.w-card-text.fw-bold.text-white El empaque simultáneo
+    
+    p.mb-4 Consiste en ir empacando a medida que se registra para agilizar la atención al cliente y descongestionar el puesto de pago. Algunos productos por su peso o contextura se prestan para que realice el empaque simultáneo: los textiles, los productos de panadería, la galletería, los pasabocas y los productos refrigerados.
+    
+    .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .d-flex.align-items-center.mt-4
+          img.w-card-icon(src="@/assets/curso/tema3/ico6.png")
+          .bg55.py-2.w-card-text.fw-bold.text-white El empaque de frutas y verduras 
 
+    p.mb-4 Para empacar estos productos debe tener en cuenta algunas clasificaciones:
 
+    .row.justify-content-center.align-items-center.mb-5.fondo4.p-4
+      .col-lg-11
+        SlyderA.blanco1.p-4
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por grupos
+              ul.lista-ul--color
+                li
+                  i.fas.fa-circle-check
+                  |Ramas
+                li
+                  i.fas.fa-circle-check
+                  |Verduras 
+                li
+                  i.fas.fa-circle-check
+                  |Frutas
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img03.png', alt='')
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por tamaño
+              ul.lista-ul--color
+                li
+                  i.fas.fa-circle-check
+                  |Grandes 
+                li
+                  i.fas.fa-circle-check
+                  |Medianas  
+                li
+                  i.fas.fa-circle-check
+                  |Pequeñas
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img04.png', alt='')             
+            
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por color
+              p La combinación de los colores de los productos debe ser agradable a la vista del cliente. Se debe tener en cuenta el contraste de los colores claros y oscuros (cuando se empaca en bolsa transparente).
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img05.png', alt='')     
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por olor
+              p No se deben empacar productos de olores fuertes al lado de productos con aroma suave (siempre frutas y verduras aparte).
+              p Ejemplo: cebollas con banano, naranjas con orégano o tomillo. 
+              p Nota. Las hortalizas de hoja, los cítricos y los champiñones son propensos a absorber olores fuertes.
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img06.png', alt='')     
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por maduración
+              p Según su velocidad de maduración y respiración, no se deben empacar juntos productos que liberen gas etileno.
+              p Ejemplo: el plátano maduro con repollo, banano con tomate de aliño o arveja con hortalizas de hoja.
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img07.png', alt='')     
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por peso
+              ul.lista-ul--color
+                li
+                  i.fas.fa-circle-check
+                  |Pesados 
+                li
+                  i.fas.fa-circle-check
+                  |Semipesados 
+                li
+                  i.fas.fa-circle-check
+                  |Livianos
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img08.png', alt='')     
+          
+          .row.justify-content-center.align-items-center.mb-5
+            .col-md-6.mb-4.mb-md-0
+              h5 Por constitución
+              ul.lista-ul--color
+                li
+                  i.fas.fa-circle-check
+                  |Resistentes 
+                li
+                  i.fas.fa-circle-check
+                  |Delicados
+              .py-2
+            .col-md-4.col-8
+              figure
+                img(src='@/assets/curso/tema3/img09.png', alt='')              
+    separador
+    #t_3_1.titulo-segundo.mb-5
+      h2 3.1  Descripción del empaque
 
+    p.mb-3 El empaque es un momento importante del producto, en el diseño se debe tener en cuenta la protección y conservación adecuadas para que no se afecte durante el transporte, almacenamiento y entrega al cliente final, también es muy útil diferenciar y promocionar en la etiqueta del producto la marca y demás información que necesite comunicarse.
 
-
+    .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .d-flex.align-items-center.mt-4
+          img.w-card-icon(src="@/assets/curso/tema3/ico7.png")
+          .bg55.py-2.w-card-text.fw-bold.text-white La importancia del empaque
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8
+        img(src='@/assets/curso/tema3/img10.png', alt='Texto que describa la imagen')
+        .py-4
+      .col-lg-8  
+        .row.justify-content-center
+          .col-lg-5.col-md-6.mb-4.py-4
+            .overflow-hidden.h-100.bg5.p-4
+              .py-3
+              img.img-a.img-t(src='@/assets/curso/tema3/num1.png', alt='tema1')
+              .py-2
+              p.mb-0 Consiste en proteger el producto para que llegue en las mejores condiciones al consumidor o cliente final.
+              br
+              br
+              br
+          
+          .col-lg-5.col-md-6.mb-4.py-4
+            .overflow-hidden.h-100.bg5.p-4 
+              .py-3
+              img.img-a.img-t(src='@/assets/curso/tema3/num2.png', alt='tema1')
+              .py-2
+              p.mb-0 Una de las funciones que debe cumplir el empaque es ayudar a vender el producto, logrando que el canal de distribución quiera comercializarlo por considerar que es fácil de transportar y almacenar.
+              br
+              br
+              br
+    p.mb-3 Son considerados envases todos los artículos “desechables” utilizados con este mismo fin. En este grupo están incluidas las bolsas en las que se empacan los productos de un solo uso y que son entregadas o adquiridas en los comercios por el cliente y los empaques desechables que se utilicen con el mismo fin, como las bandejas, platos, vasos, cubiertos y cualquier otro artículo desechable que se emplea principalmente en la hotelería.
 
 </template>
 
