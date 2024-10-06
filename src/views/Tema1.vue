@@ -7,7 +7,7 @@
         span 1
       h1 Recaudo en el punto de pago
   
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.col-md-12.col-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -25,7 +25,7 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1	Establecimiento comercial
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-4
         img(src='@/assets/curso/tema1/img002.png', alt='')
       .col-lg-7
@@ -49,6 +49,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/B1SJ6HqeT3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Apertura de la caja
 
+   
 </template>
 
 <script>
