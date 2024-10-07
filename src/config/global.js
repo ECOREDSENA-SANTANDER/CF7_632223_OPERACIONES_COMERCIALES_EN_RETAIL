@@ -375,7 +375,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Pedro Alonso Bolivar Gonzalez',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
