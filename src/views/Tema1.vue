@@ -26,14 +26,14 @@
       h2 1.1	Establecimiento comercial
 
     .row.justify-content-center(data-aos="fade-left")
-      .col-lg-4
-        img(src='@/assets/curso/tema1/img002.png', alt='')
+      .col-lg-4.col-8
+        img.mb-2(src='@/assets/curso/tema1/img002.png', alt='')
       .col-lg-7
         p La base es la primera cantidad de dinero que se recibe en billetes y monedas de diferente denominación para dar el cambio o las “vueltas” a los clientes. Para reclamar la base, primero debe ingresar y salir del sistema POS, con esta acción se carga la base al sistema y se obtiene la tirilla con el valor a reclamar. Antes de dirigirse al puesto de pago debe verificar la cantidad recibida.
         p Recuerde llevar siempre al puesto de pago el sacudidor y el dispensador de agua que le suministra el jefe inmediato, luego de distribuir la base en la gaveta verifique el material de empaque entregado por la empresa.
         .cajon.color-acento-contenido.p-4.mb-4
           p Nota. Cuando llegue al puesto de pago no devuelva a los clientes, sugiérales que lo esperen mientras organiza la base.
-      .col-lg-1
+      .col-lg-1.col-3
         img(src='@/assets/curso/tema1/cajero.png', alt='')
     
     separador

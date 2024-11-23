@@ -389,6 +389,492 @@
               br
     p.mb-3 Son considerados envases todos los artículos “desechables” utilizados con este mismo fin. En este grupo están incluidas las bolsas en las que se empacan los productos de un solo uso y que son entregadas o adquiridas en los comercios por el cliente y los empaques desechables que se utilicen con el mismo fin, como las bandejas, platos, vasos, cubiertos y cualquier otro artículo desechable que se emplea principalmente en la hotelería.
 
+    separador
+    #t_3_2.titulo-segundo.mb-5
+      h2 3.2 Tipos
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8
+        img.mb-2(src='@/assets/curso/tema3/img11.png', alt='tema1')
+      .col-lg-8
+        .row.justify-content-center.align-items-center
+          .col-lg-11
+            p Cada producto tiene su propio envase y embalaje, el envase primario tiene como función contenerlo, envolverlo, protegerlo y conservarlo, es el primer contacto con el producto, el empaque secundario tiene uno o varios embalajes primarios.
+          .col-lg-1.col-3
+            img.mb-3(src='@/assets/curso/tema3/img12.png', alt='tema1')
+        .cajon.color-acento-contenido.p-4.mb-4
+          p Teniendo en cuenta los diferentes tipos de envases se deben categorizar en primarios, secundarios y terciarios, el envase primario es el que protege y está en contacto directo con el producto, el secundario contiene varios productos y facilita su traslado, el terciario es el que contiene envases grandes con mucha mercancía.
+
+    .tarjeta.color-secundario.p-4.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema3/software.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-3 Video ilustrativo anexo
+              p.text-small ¿cuáles son los tipos de envases? / características de los envases / tipos de empaque o embalaje.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ir al sitio
+                i.fas.fa-file-download
+
+
+    .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .d-flex.align-items-center.mt-4
+          img.w-card-icon(src="@/assets/curso/tema3/ico8.png")
+          .bg55.py-3.w-card-text.fw-bold.text-white Tipos de envases para los alimentos
+
+    p.mb-3 En los envases para alimentos y bebidas se deben tener en cuenta las materias primas con las que se producen, para estos envases se utilizan metal, vidrio, plástico, papel y cartón, cada uno tiene sus ventajas y desventajas, a continuación, profundice en el tema y responda algunas preguntas que puedan surgir.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.col-12.col-sm-12
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-left")
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/01.png' alt='AvatarTop')
+            h5.text-center.mt-4 El envase primario
+            p.text-center.mt-4 Es el que tiene contacto directo con el producto, además de contener el producto permite su consumo. 
+            p.text-center.mt-4 Un ejemplo de envase primario son las latas que contienen leche, sea líquida o en polvo. La función de este primer envase es cumplir con dos condiciones principales: proteger la mercancía y fomentar las ventas.
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/02.png' alt='AvatarTop')
+              h5.text-center.mt-4 Envase secundario
+              p.text-center.mt-4 Es el contenedor unitario de uno o varios envases primarios. Su función es protegerlos, identificarlos y proporcionar información sobre las cualidades del producto.
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/03.png' alt='AvatarTop')
+              h5.text-center.mt-4 Envase terciario
+              p.text-center.mt-4 Es el envase que cumple con la función de distribuir, unificar y proteger el producto a lo largo de la cadena comercial.  Este envase se refiere a la caja de cartón corrugado que contendrá varias latas de leche para su distribución a los almácenes.
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/04.png' alt='AvatarTop')
+            h5.text-center.mt-4 ¿Qué es el envase y sus características?
+            p.text-center.mt-4 El envase es todo recipiente o soporte destinado a contener un producto para así poder facilitar su transporte. 
+            p.text-center.mt-4 Un buen envase se identifica por las siguientes características: posibilidad de contener el producto y resistencia.
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/05.png' alt='AvatarTop')
+              h5.text-center.mt-4 ¿Cuál es el mejor envase para alimentos?
+              p.text-center.mt-4 Unos de los envases que más se usa para empacar alimentos es el aluminio y la hojalata, ya que son más confiables que las bolsas de plástico a la hora del transporte, también porque extiende la vida útil del producto, factor importante en la planificación y sostenibilidad de la venta.
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/06.png')
+            h5.text-center.mt-4 ¿Qué tipo de envases plásticos se pueden utilizar para alimentos?
+            p.text-center.mt-4 El PET (material sintético denominado poliéster) es muy usado en el envasado de los diferentes tipos de refrescos, bebidas para deportistas, agua, salsas, aderezos para ensaladas, vitaminas, botellas de aceite vegetal y envasado de mantequilla de maní. Pero también existen otros materiales.
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/07.png' alt='AvatarTop')
+              h5.text-center.mt-4 ¿Cuál es el material más utilizado para empaques de alimentos?
+              p.text-center.mt-4 El plástico tiene muchas aplicaciones en los tipos de envases para cualquier alimento debido a sus propiedades, que ha encontrado cada vez más aplicaciones en el campo de envases para todo tipo de alimentos es el PET, debido a sus propiedades, su inercia química, su maleabilidad y su color.
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/08.png' alt='AvatarTop')
+              h5.text-center.mt-4 Bolsas de plástico
+              p.text-center.mt-4 Hay que tener en cuenta que solo los envases de plástico permitidos para preparar los alimentos en microondas son los que pueden utilizarse en este aparato. 
+              p.text-center.mt-4 En este sentido no olvidar que este material se puede fundir o contaminar los alimentos.  Si bien es un producto muy útil para diversos usos, este material al menos que se indique no es apto para microondas.
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-7
+                img.mt-2(src='@/assets/curso/tema3/09.png' alt='AvatarTop')
+            h5.text-center.mt-4 ¿Qué recipientes no se pueden meter en el microondas?
+            p.text-center.mt-4 Hay que ser muy cuidadoso con los recipientes que se usan para la preparación de alimentos en el microondas, no se pueden utilizar el papel de aluminio o las tapas metálicas hasta recipientes de acero inoxidable o las vajillas decoradas con pinturas metálicas. 
+            p.text-center.mt-4 No se deben usar los recipientes herméticamente cerrados e incluso los alimentos con cáscara o piel dura para evitar que revienten.
+      
+
+
+    separador
+    #t_3_3.titulo-segundo.mb-5
+      h2 3.3  Normativa y clasificación
+
+    p.mb-4 La clasificación de los envases debe cumplir con las normas específicas para cada uno de ellos según su capacidad, su textura y su fin estratégico.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-12.col-md-12.col-12
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row.col-xl-11.m-auto(titulo="Según su capacidad")
+            .row.justify-content-center
+              .col-lg-8.mb-4
+                ul.lista-ul.ps-2
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envase unitario:] como su nombre lo indica contiene un solo producto, la mayoría de los productos tiene envase unitario o primario, es la unidad de venta de un solo contenido.
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envase múltiple:] es cualquier recipiente o envoltura que contiene dos o más productos destinados para la venta al cliente, casi siempre su precio es levemente inferior.
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envase colectivo:] es la envoltura o recipiente que contiene dos o más productos envasados previamente.
+              .col-lg-4.mb-4
+                img.img-a.img-t(src="@/assets/curso/tema3/img015.png")
+
+          .row.col-xl-11.m-auto(titulo="Según su textura")
+            .row.justify-content-center
+              .col-lg-8.mb-4
+                ul.lista-ul.ps-2
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envase rígido:] la rigidez de este envase permite ubicar el producto en estibas y soporta mayor peso sin sufrir daños, entre ellos están las latas metálicas y los envases de vidrio.
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b  Envase semirrígido:] la resistencia de este envase es menor al envase rígido, también se puede ubicar en estibas, entre ellos están los envases de plástico.
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envase flexible:] estos envases son fabricados con hojas de aluminio, papel, laminaciones, películas plásticas y otros materiales flexibles, no se deben almacenar en estibas, ya que se pueden deteriorar.
+              .col-lg-4.mb-4
+                img.img-a.img-t(src="@/assets/curso/tema3/img16.png")
+
+          .row.col-xl-11.m-auto(titulo="Según su fin estratégico")
+            .row.justify-content-center
+              .col-lg-8.mb-4
+                ul.lista-ul.ps-2
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envases de líneas de productos o por familias:] se utiliza en productos de la misma línea, con el objetivo de facilitar la publicidad de la marca.
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envases de uso posterior:] se elabora con el sentido de que sirva para diversos fines, se puede utilizar una vez se ha sacado de su envase o se ha consumido. 
+                  li.d-flex.mb-4
+                    i.fas.fa-circle-check
+                    p.mb-0 #[b Envases promocionales:] este envase cumple con las funciones para las cuales fue elaborado y también sirve como promoción, esta función se hace con el fin de provocar al consumidor para su consumo.
+              .col-lg-4.mb-4
+                img.img-a.img-t(src="@/assets/curso/tema3/img17.png")
+
+
+
+    .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .d-flex.align-items-center.mt-4
+          img.w-card-icon(src="@/assets/curso/tema3/ico9.png")
+          .bg55.py-3.w-card-text.fw-bold.text-white Las Normas ISO para empaques y embalajes
+
+    p.mb-3 Las certificaciones para las normas estandarizadas que involucran a los empaques y embalajes corresponden a las siguientes:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8
+        img.mb-3(src="@/assets/curso/tema3/img18.png")
+      .col-lg-8.col-12
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-5")(data-aos="zoom-in-left")
+          .tarjeta.color-secundario-cus.p-4
+            .row.justify-content-center.mb-3
+              .col-sm-3.col-lg-12.my-2.d-none.d-lg-block
+                img(src='@/assets/curso/tema3/img19.png')
+            .row.justify-content-center.mb-3
+              h5.text-center.text-white ISO 3394
+              p.text-center.text-white Se refiere a las dimensiones de cajas, plataformas o cargas con pallets. Las cajas externas o masters, utilizadas para el embalaje deben ajustarse a 60×40 cm.
+                
+          .tarjeta.color-secundario-cus.p-4
+            .row.justify-content-center.mb-3
+              .col-sm-3.col-lg-12.my-2.d-none.d-lg-block
+                img(src='@/assets/curso/tema3/img20.png')
+            .row.justify-content-center.mb-3
+              h5.text-center.text-white R87
+              p.text-center.text-white Es una reglamentación desprendida de la norma anterior y hace referencia al etiquetado de envases para venta individual con descripción de ingredientes.
+          
+          .tarjeta.color-secundario-cus.p-4
+            .row.justify-content-center.mb-3
+              .col-sm-3.col-lg-12.my-2.d-none.d-lg-block
+                img(src='@/assets/curso/tema3/img21.png')
+            .row.justify-content-center.mb-3
+              h5.text-center.text-white ISO 780 y 7000
+              p.text-center.text-white Ambas cuidan que se agregue señalética para el manejo. Crear etiquetas con simbología que indique si se transporta algo frágil o que corre riesgo, o que pueda causarlos con mala manipulación.
+
+          
+          .tarjeta.color-secundario-cus.p-4
+            .row.justify-content-center.mb-3
+              .col-sm-3.col-lg-12.my-2.d-none.d-lg-block
+                img(src='@/assets/curso/tema3/img22.png')
+            .row.justify-content-center.mb-3
+              h5.text-center.text-white ISO 14001
+              p.text-center.text-white Esta certificación indica que la empresa está minimizando el impacto negativo que su actividad pudiera generar al medio ambiente.
+
+
+
+
+    separador
+    #t_3_4.titulo-segundo.mb-5
+      h2 3.4  Técnicas de empaque
+
+    .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.col-md-12.col-12
+          .bloque-texto-g.bgazul.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema3/img23.png')})`}"
+            )
+            .bloque-texto-g__texto.p-5
+              p.mb-4 Uno de los empaques que necesita más cuidado son las frutas y verduras, ya que requieren de un empaque eficaz, teniendo en cuenta que es un producto delicado y se debe proteger su calidad durante su transporte y en los estantes del punto de venta. Este empaque se debe seleccionar dependiendo del tipo de producto y lo que funcione mejor para envolverlo y proveer el mejor método de manejo. Este tipo de empaque debe ser diseñado para soportar de forma eficaz diferentes condiciones en la cadena de abastecimiento: manipulación brusca al cargar y descargar, compresión derivada del peso de otros contenedores (si están apiladas dobles), su movimiento durante el transporte, y la alta humedad que puede presentarse durante el pre-enfriamiento, tránsito y almacenamiento.
+             
+    p.mb-3 El tener un buen conocimiento de todos los aspectos de empaque es clave al momento de seleccionar el más adecuado, de acuerdo con el tipo de producto que se enviará y para tener un mejor manejo del producto durante el tránsito.
+
+    .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
+      .col-lg-12.col-12.col-md-12
+        figure(data-aos="fade-right").py-2
+          .video.mb-1
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Bd7ZpkPkQiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Destrezas en el punto de pago: introducción
+
+
+    .tarjeta.color-secundario.p-4.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema3/software.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-3 Video ilustrativo anexo
+              p.text-small En el video ilustrativo anexo, adicionalmente podrá conocer un poco sobre packaging.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ir al sitio
+                i.fas.fa-file-download
+
+    separador
+    #t_3_5.titulo-segundo.mb-5
+      h2 3.5  Empaque de productos según naturaleza
+
+    p.mb-3 Para la elaboración de empaques y embalajes se deben considerar algunos factores, teniendo en cuenta el producto a preservar y el modo de transporte que se va a utilizar, estos factores son:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        img.mb-3(src="@/assets/curso/tema3/img20.svg")
+
+      p.mb-3 En otras palabras, los empaques y embalajes se deben elaborar teniendo en cuenta la manipulación que se le vaya a dar tanto en el transporte como en el manejo, son muy usados en los productos de exportación, los más usados son madera, cartón, plástico, vidrio y metal, ya que son resistentes por la composición mecánica, física y química del producto.
+      p.mb-3 Explore los materiales más comunes en la elaboración de empaques o embalajes, sus ventajas y desventajas:
+
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-lg-12.col-md-12.col-12
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+            .row.col-xl-11.m-auto(titulo="Empaques de papel")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p Son utilizados para envolver por dentro o por fuera otros empaques como bolsas o cajas, se usan también las cajas plegadizas de cartón, ya que estas pueden adoptar diversas formas, dado que se componen de varias capas.
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Reciclable.
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Permite la impresión en la superficie y de alta calidad. 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Fácil cortado, trazado, plegado. 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Fácil de pegar con cualquier tipo de adhesivo. 
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Son materiales altamente higroscópicos (capacidad de algunas sustancias o materiales). 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 No tiene propiedades de barrera contra líquidos, aceites y gases.
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr01.png")
+            
+            .row.col-xl-11.m-auto(titulo="Empaques de cartón corrugado")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p Este tipo de empaque es usado para el transporte y protección de producto, es utilizado para empacar preferiblemente artesanías, maquinaria, electrodomésticos, calzado y alimentos.
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Ligereza y flexibilidad. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Versatilidad (forma y dimensiones). 
+ 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Amplia gama de resistencias mecánicas.
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Fácil de pegar con cualquier tipo de adhesivo. 
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Permeabilidad a los gases. 
+ 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Problemas de termo estabilidad. Empaques metálicos.
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr02.png")
+
+            
+            .row.col-xl-11.m-auto(titulo="Acero y aluminio.")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p Los dos principales materiales utilizados para la fabricación de empaques son el acero y el aluminio. 
+                  p Los alimentos enlatados se empacan en acero y las bebidas con gas se empacan en aluminio.
+
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Resistencia mecánica. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Ligereza. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Protección de luz y radiación. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Conductividad térmica.
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Solo se producen empaques estandarizados y normalizados.
+        
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr03.png")
+
+            
+            .row.col-xl-11.m-auto(titulo="Empaques de vidrio")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p El envase de vidrio tiene la característica de ser muy fuerte, el inconveniente con este empaque es que tiene poca resistencia al impacto, una de sus mejores características es que protege de la contaminación, los más usados son los frascos y botellas, su principal uso se da en salsas, compotas, bebidas, cosméticos y medicamentos.
+
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Incoloro e insaboro. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Gran resistencia a la presión interna y altas temperaturas sin perder propiedades.
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Fácil cortado, trazado, plegado. 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Degradación física y química lenta. 
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Fragilidad. 
+ 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Ocupan volumen cuando están vacíos.
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr04.png")
+
+            
+            .row.col-xl-11.m-auto(titulo="Empaques de madera")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p Entre los empaques que existen está la madera, este es un producto natural, entre sus características está que es duro, moldeable y flexible, su mayor uso se da en los embalajes de productos de exportación, ya que requieren de una protección especial principalmente las partes para vehículos y la maquinaria pesada.
+
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Material abundante. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Robustez. 
+ 
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Su fabricación es fácil y no requiere equipos especiales. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Son reutilizables.
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Es más costoso. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Exige mayor trabajo y espacio de almacenamiento.
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr05.png")
+
+            .row.col-xl-11.m-auto(titulo="Empaques con material textil")
+              .row.justify-content-center
+                .col-lg-8.mb-4
+                  p Los empaques hechos con textiles especialmente se usan para elaborar bolsas y sacos, estos contienen fibras vegetales como el cáñamo, algodón, fique, yute y sisal, se utilizan especialmente para almacenar productos a granel. 
+
+                  h4 Ventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Bajo costo. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Abundancia de materia prima.
+              
+                  h4 Desventajas
+                  ul.lista-ul.ps-2
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Son sometidos a estrictos controles fitosanitarios. 
+
+                    li.d-flex.mb-0
+                      i.fas.fa-circle-check
+                      p.mb-0 Poca adaptabilidad a equipos de manipulación.
+                .col-lg-4.mb-4
+                  img.img-a.img-t(src="@/assets/curso/tema3/gr06.png")
+
+
+      p.mb-3 A continuación, se presentará en la tabla un resumen de la información abordada previamente sobre los materiales de los empaques y embalajes, con algunos ejemplos de estos:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>
