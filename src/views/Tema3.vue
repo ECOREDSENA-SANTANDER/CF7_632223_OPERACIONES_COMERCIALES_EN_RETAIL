@@ -257,13 +257,13 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-circle-check
-                  |Ramas
+                  |Ramas.
                 li
                   i.fas.fa-circle-check
-                  |Verduras 
+                  |Verduras.
                 li
                   i.fas.fa-circle-check
-                  |Frutas
+                  |Frutas.
               .py-2
             .col-md-4.col-8
               figure
@@ -275,13 +275,13 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-circle-check
-                  |Grandes 
+                  |Grandes. 
                 li
                   i.fas.fa-circle-check
-                  |Medianas  
+                  |Medianas.  
                 li
                   i.fas.fa-circle-check
-                  |Pequeñas
+                  |Pequeñas.
               .py-2
             .col-md-4.col-8
               figure
@@ -324,13 +324,13 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-circle-check
-                  |Pesados 
+                  |Pesados. 
                 li
                   i.fas.fa-circle-check
-                  |Semipesados 
+                  |Semipesados. 
                 li
                   i.fas.fa-circle-check
-                  |Livianos
+                  |Livianos.
               .py-2
             .col-md-4.col-8
               figure
@@ -342,10 +342,10 @@
               ul.lista-ul--color
                 li
                   i.fas.fa-circle-check
-                  |Resistentes 
+                  |Resistentes. 
                 li
                   i.fas.fa-circle-check
-                  |Delicados
+                  |Delicados.
               .py-2
             .col-md-4.col-8
               figure
@@ -415,7 +415,7 @@
               h3.mb-3 Video ilustrativo anexo
               p.text-small ¿cuáles son los tipos de envases? / características de los envases / tipos de empaque o embalaje.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=yzNQGlXXcms')" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-download
 
@@ -624,8 +624,9 @@
       .col-lg-12.col-12.col-md-12
         figure(data-aos="fade-right").py-2
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/Bd7ZpkPkQiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Destrezas en el punto de pago: introducción
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/rYZXkd2sl7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Empaque, almacenamiento y transporte del plátano
+
 
 
     .tarjeta.color-secundario.p-4.mb-5
@@ -636,9 +637,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-3 Video ilustrativo anexo
-              p.text-small En el video ilustrativo anexo, adicionalmente podrá conocer un poco sobre packaging.
+              p.text-small En el video ilustrativo anexo, adicionalmente podrá conocer un poco sobre #[em packaging].
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=_Lka-gWZ1t8')" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-download
 

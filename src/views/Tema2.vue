@@ -15,15 +15,6 @@
       .col-lg-8
         .py-4
         SlyderA.bg6.p-3
-          .row.justify-content-center.align-items-center.mb-5
-            .col-md-3.col-8
-              figure
-                img(src='@/assets/curso/tema2/img01.png', alt='')
-              .py-2
-            .col-md-7.mb-4.mb-md-0
-              h5 Validación de transacciones
-              p Debe tener concentración en el registro, sin descuidar lo que pasa alrededor del puesto de pago.
-          
           .row.justify-content-center.align-items-center.mb-5.p-4
             .col-md-3.col-8
               figure
@@ -58,7 +49,7 @@
               .py-2
             .col-md-7.mb-4.mb-md-0
               h5 Validación de transacciones
-              p Debe retirar o desactivar los tag’s de seguridad, recuerde que algunos proveedores los colocan a sus productos, como cosméticos, medicamentos, algunas marcas de leche en polvo, libros y revistas o los hard tag que le colocan a los textiles, zapatos y otros productos que no se dañan con este sistema de seguridad.
+              p Debe retirar o desactivar los #[em tag’s] de seguridad, recuerde que algunos proveedores los colocan a sus productos, como cosméticos, medicamentos, algunas marcas de leche en polvo, libros y revistas o los hard tag que le colocan a los textiles, zapatos y otros productos que no se dañan con este sistema de seguridad.
           
           .row.justify-content-center.align-items-center.mb-5.p-4
             .col-md-3.col-8
@@ -92,16 +83,16 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img002.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-4 Es el equipo para que se desactiven los tag’s o dispositivos de seguridad que le colocan en el almacén a los productos para evitar que salgan sin ser registrados, la mayoría de ellos son de textiles, variedades y licores. 
+            p.mb-4 Es el equipo para que se desactiven los #[em tag’s] o dispositivos de seguridad que le colocan en el almacén a los productos para evitar que salgan sin ser registrados, la mayoría de ellos son de textiles, variedades y licores. 
             br
             br
             |
-            p Los puestos de pago también tienen incorporado un desactivador para los tag’s que traen internamente en el empaque algunos cosméticos y medicamentos, estos dispositivos son colocados por el fabricante y no son reutilizables.
+            p Los puestos de pago también tienen incorporado un desactivador para los #[em tag’s] que traen internamente en el empaque algunos cosméticos y medicamentos, estos dispositivos son colocados por el fabricante y no son reutilizables.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .cajon.color-acento-contenido.p-4.mb-4
-          p Nota. Siempre se debe retirar y/o deshabilitar el tag del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
+          p Nota. Siempre se debe retirar y/o deshabilitar el #[em tag] del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
     
     separador
     #t_2_1.titulo-segundo.mb-5
@@ -112,7 +103,7 @@
         img(src='@/assets/curso/tema2/img003.png', alt='')
       .col-lg-7
         .py-2
-        p Cuando  se habla del precio se hace referencia a que a todo producto o servicio se le da una cuantía representativa, la calidad y la cantidad forman parte del intercambio de productos y servicios que se conoce como compra-venta, a lo largo del tiempo el hombre ha adoptado este término para hacer correspondencia a lo que se tiene que pagar por algún producto o servicio.
+        p Cuando  se habla del precio se hace referencia a que a todo producto o servicio se le da una cuantía representativa, la calidad y la cantidad forman parte del intercambio de productos y servicios que se conoce como compra - venta, a lo largo del tiempo el hombre ha adoptado este término para hacer correspondencia a lo que se tiene que pagar por algún producto o servicio.
         .cajon.color-acento-contenido.p-4.mb-4
           p Cabe destacar que el término precio hace referencia a la cantidad de dinero que se necesita para poder adquirir un bien o servicio, incluso un objeto, mediante los diferentes tipos de dinero que existen, pero depende de la región donde se esté haciendo la compra.
       .col-lg-1.col-3
@@ -170,7 +161,7 @@
                 img(src='@/assets/curso/tema2/img021.png' alt="")
             .crd_hover_txt--body.colt
               h5.mb-3.text-center Incentivo
-              p.mt-4.text-white.mb-0.text-center Es el costo-beneficio que recibe el cliente con respecto a las ventajas que lo exoneran al utilizar cada uno de los medios de pago.
+              p.mt-4.text-white.mb-0.text-center Es el costo - beneficio que recibe el cliente con respecto a las ventajas que lo exoneran al utilizar cada uno de los medios de pago.
         
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
@@ -205,13 +196,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img006.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p.mb-4 Los métodos de pago seguros en Colombia tienen una relevancia en el mundo del comercio electrónico, estos métodos son aquellos donde todas las operaciones se realizan de forma telemática, son las herramientas con las que se transfiere el dinero del comprador al vendedor, la fase crítica se da en las tiendas online, por eso los propietarios de un e-commerce necesitan tener sus medios de pago bajo control y para ello necesitan saber cómo funcionan.
+            p.mb-4 Los métodos de pago seguros en Colombia tienen una relevancia en el mundo del comercio electrónico, estos métodos son aquellos donde todas las operaciones se realizan de forma telemática, son las herramientas con las que se transfiere el dinero del comprador al vendedor, la fase crítica se da en las tiendas #[em online], por eso los propietarios de un #[em e-commerce] necesitan tener sus medios de pago bajo control y para ello necesitan saber cómo funcionan.
             br
             br
             |
-            p Se puede definir un método de pago online como un instrumento que permite recibir pagos de los clientes de forma inmediata, el dinero se dirige del comprador al vendedor pasando por un puente de pagos, que regula y autoriza el flujo.
+            p Se puede definir un método de pago #[em online] como un instrumento que permite recibir pagos de los clientes de forma inmediata, el dinero se dirige del comprador al vendedor pasando por un puente de pagos, que regula y autoriza el flujo.
       .py-3
-      p.mb-2 Los diferentes niveles de seguridad que existen en las plataformas de pago online agrupan los terminales de punto de venta virtuales (TPV virtual) que otorgan las entidades bancarias o los medios de pago, y que no dependen de ningún banco, ni de los pagos PayPal, Stripe o similares.
+      p.mb-2 Los diferentes niveles de seguridad que existen en las plataformas de pago #[em online] agrupan los terminales de punto de venta virtuales (TPV virtual) que otorgan las entidades bancarias o los medios de pago, y que no dependen de ningún banco, ni de los pagos PayPal, Stripe o similares.
     .row.justify-content-start.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .d-flex.align-items-center.mt-4
@@ -246,12 +237,12 @@
       .col-lg-4.col-8.py-2.col-sm-6
         img(src='@/assets/curso/tema2/img007.png', alt='')
       .col-lg-8
-        p La mayoría de las entidades bancarias conceden de forma automática a los independientes y pymes un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su e-commerce, el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo 3D Secure.
+        p La mayoría de las entidades bancarias conceden de forma automática a los independientes y pymes un TPV (Terminal punto de venta virtual), estos contienen un nivel de seguridad para poder recibir pagos en su #[em e-commerce], el nivel de seguridad exige que todas las compras sean efectuadas con tarjetas que cumplan con el protocolo 3D Secure.
         .cajon.color-secundario.p-4.mb-4
           p Hay que tener en cuenta que todas las tarjetas débito y crédito están compuestas por 16 dígitos, tienen fecha de caducidad y un criptograma visual (CVV) de tres dígitos de control para la verificación de la transacción en el sitio web del banco, el cual pide una clave adicional como medida de seguridad, que ayuda a disminuir los niveles de inseguridad en los pagos que se realizan con tarjetas débito y crédito, ofreciendo confiabilidad en los pagos electrónicos que realizan los clientes.
-        p.mb-4 La condición o circunstancia desventajosa para las tiendas online es que a pesar de que algunas de las tarjetas 3D Secure están habilitadas para las compras online, fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
+        p.mb-4 La condición o circunstancia desventajosa para las tiendas #[em online] es que a pesar de que algunas de las tarjetas 3D Secure están habilitadas para las compras #[em online], fallan al momento de la compra, las tarjetas se entregan deshabilitadas cuando las entrega la entidad financiera o cuando se renuevan y requieren una activación inicial con el banco.
       .py-2
-      p.mb-3 Para habilitar una tarjeta con 3D Secure y que esté disponible al momento de la compra online en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
+      p.mb-3 Para habilitar una tarjeta con 3D Secure y que esté disponible al momento de la compra #[em online] en un TPV virtual tan solo hay que contactar al banco para habilitar esta opción, el inconveniente que genera esta operación es que hay compradores que a pesar de que se está viviendo una revolución en las formas de pago, aún no se han adaptado a esta tecnología por los niveles de desconfianza que existen.
 
     separador
     #t_2_4.titulo-segundo.mb-5
@@ -290,7 +281,7 @@
               |No se registran algunos descuentos concedidos a los clientes.
             li
               i.fas.fa-circle-check
-              |SCuando se registra y no se tiene en cuenta si son ventas a crédito o por plazos.
+              |Cuando se registra y no se tiene en cuenta si son ventas a crédito o por plazos.
             li
               i.fas.fa-circle-check
               |Robo.

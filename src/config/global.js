@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Destrezas en el punto de pago',
     descripcionCurso:
-      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones que se le asignan a los cajeros en los retail.',
+      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar la destreza en el manejo de caja, manejo de dinero, transacciones financieras y otras funciones que se le asignan a los cajeros en los <i>retail</i>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
