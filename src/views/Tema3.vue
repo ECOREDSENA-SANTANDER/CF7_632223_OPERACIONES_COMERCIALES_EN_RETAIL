@@ -854,11 +854,58 @@
 
 
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-12.col-md-12.col-12
+        .titulo-sexto.color-secundario(data-aos='fade-right', atl='La tabla presenta 7 filas y 5 columnas, donde se describen materiales de empaques y embalajes como: metales, madera, cartón, plástico, papel y vidrio; adicionalmente se mencionan algunos tipos, ejemplos, ventajas y desventajas.')
+          h5 Tabla 1.
+          span Materiales de empaques y embalajes
+        .tabla-a.color-secundario
+          table
+            thead
+              tr
+                th Materiales
+                th Tipo
+                th Ejemplo
+                th Ventajas
+                th Desventajas
+            tbody
+              tr
+                td Metales
+                td Láminas de aluminio y acero, recubiertas de estaño.
+                td Contenedores, recipientes bajo presión, cajas metálicas.
+                td Solidez, fácil estibado, reutilizables.
+                td Costo elevado, corrosión, pesado y voluminoso.
+              tr
+                td Madera
+                td Madera en bruto, cepillada y aglomerada.
+                td Cajas, #[em pallets] y canastas.
+                td Fácil de manipular y estibar.
+                td Altos costos, sensible al sol y humedad, fácil descomposición, contaminable, sensible a plagas, inflamable y pesado.
+              tr
+                td Cartón
+                td Plano, ondulado o corrugado.
+                td Cajas de cartón.
+                td Económico, reciclable y de fácil manipulación.
+                td Muy frágil, sensible a la humedad y al calor, poco sólido, no reutilizable.
+              tr
+                td Plástico
+                td Polietileno y poliestireno (PVC).
+                td Bolas, toneles, bidones, cajas y contenedores.
+                td Impermeabilidad, gran diversidad, reutilizable.
+                td Inflamable, costoso y difícil eliminación.
+              tr
+                td Papel
+                td 
+                td Bolsas.
+                td Bajos costos y fácil eliminación.
+                td Muy frágil, sensible a la humedad y al calor.
 
-
-
-
-
+              tr
+                td Vidrio
+                td 
+                td Botellas, frascos y botellones.
+                td Visibilidad del contenido, fácil estibado y reciclable.
+                td Frágil a los golpes, pesado y voluminoso.
 
 
 

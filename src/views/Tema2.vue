@@ -249,7 +249,7 @@
       h2 2.4  Excedentes de pago
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-lg-1.col-4.py-2.col-sm-4
+      .col-lg-1.col-4.py-2.col-sm-3
         img(src='@/assets/curso/tema2/pago.png', alt='')
       .col-lg-7
         p Cuando suceda que al momento del arqueo haya menos dinero del que debería haber o que haya un valor de caja mayor que el reportado, son errores comunes que se pueden presentar en el cierre de caja.

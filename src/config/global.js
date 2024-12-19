@@ -165,158 +165,126 @@ export default {
   },
   complementario: [
     {
-      tema: '<em>Retail</em>',
+      tema: 'Recaudo en el punto de pago',
       referencia:
-        'Quintero, A., L. F. (2015). El sector retail, los puntos de venta y el comportamiento de compra de los consumidores de la base de la pirámide en la comuna 10 de la ciudad de Medellín. Revista Ciencias Estratégicas, 23(33), 109-118. ',
-      tipo: 'Artículo PDF',
-      link: 'https://www.redalyc.org/pdf/1513/151345259009.pdf',
+        'Vértice, P. (2008) Gestión del punto de venta.  Editorial Publicaciones Vértice.',
+      tipo: 'Libro',
+      link:
+        'https://books.google.com.co/books?id=1_Ys-tbGD90C&printsec=frontcover&hl=es&source=gbs_atb#v=onepage&q&f=false',
     },
     {
-      tema: '<em>Merchandising</em>',
+      tema: 'Validación de transacciones',
       referencia:
-        'González, D. [Marketing 2.0]. (2019). ¿Qué es Merchandising? [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Val9lx16bsc',
-    },
-    {
-      tema: 'Vitrinismo o Visual <em>Merchandasing</em>',
-      referencia:
-        'Salgado, R. [Visual Branding LA]. (2013). Conceptos básicos de visual merchandising. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=xZZ63K6cVbc',
+        'Gates Enríquez, A. W., & Moreno Flores, D. M. (2019). Merchandising en el punto de venta y la promoción en Supermercado Metro–Sede Pedro Miotta, en Lima.',
+      tipo: 'Articulo',
+      link: 'https://repositorio.ucv.edu.pe/handle/20.500.12692/73476',
     },
   ],
   glosario: [
     {
-      termino: 'Amplitud',
+      termino: 'Apertura',
       significado:
-        'número de familias diferentes de productos que ofrece la marca.',
+        'acto con que se da comienzo a las funciones de una asamblea, centro o institución en la sesión de apertura de cualquier proceso.',
     },
     {
-      termino: '<em>Checkout</em>',
+      termino: 'Caja',
       significado:
-        'mueble ubicado cerca de las cajas y que está para exhibir productos de compra compulsiva como chocolates, chicles, mecato, revistas, libros, entre otros.',
+        'aparato usado en los comercios y establecimientos públicos para realizar automáticamente operaciones matemáticas básicas y guardar el dinero.',
     },
     {
-      termino: 'Consistencia',
+      termino: 'Cajero',
       significado:
-        'Se cercanía relativa entre las líneas de producto y su uso final.',
+        ' persona encargada de la entrada y salida de caudales en un comercio o un banco.',
     },
     {
-      termino: 'Escaparate',
+      termino: 'Cliente',
       significado:
-        'espacio exterior de las tiendas comerciales, destinado a exponer las mercancías en venta al público.',
+        ' persona que utiliza habitualmente los servicios de un profesional o de una empresa.',
     },
     {
-      termino: 'Góndola',
+      termino: 'Clientela',
       significado:
-        'tipo de mueble dispuesto a modo de pared para exhibir productos al consumidor en los puntos de venta.',
+        'conjunto de clientes de una empresa, de un establecimiento o de un profesional.',
     },
     {
-      termino: '<em>Layout</em>',
-      significado:
-        'diseño o disposición de los productos (bienes y servicios) en sectores o categorías en el punto de venta del establecimiento.',
+      termino: 'Criptograma',
+      significado: 'documento escrito en clave.',
     },
     {
-      termino: 'Longitud',
+      termino: 'Durabilidad',
       significado:
-        'número total de productos que tiene la marca en una familia.',
+        ' cualidad de duradero, la durabilidad del acero inoxidable está demostrada.',
     },
     {
-      termino: '<em>Merchandising</em>',
+      termino: 'Embalaje',
       significado:
-        'conjunto de estrategias y tácticas efectuadas dentro del establecimiento y que tiene como fin ubicar el artículo correcto, en la cantidad necesaria, con el precio justo, en el tiempo adecuado, con una presentación visual impactante y dentro de una exhibición sobresaliente. Se refiere a todos los esfuerzos destinados a que el cliente, no solo conozca el producto, sino también, que tome una acción de compra.',
+        'operación de embalar objetos para ser transportados, en esta sección se realiza el embalaje de la mercancía.',
     },
     {
-      termino: 'Planograma',
-      significado:
-        'herramienta necesaria para la gestión eficaz del espacio donde se exhiben los productos de los establecimientos minoristas, más aún en la actualidad porque existe un mercado más complicado y competitivo, en el que ha aumentado el tamaño de las tiendas, las dimensiones del surtido y el número de categorías.',
+      termino: 'Empaque',
+      significado: ' conjunto de materiales con que se envuelve una cosa.',
     },
     {
-      termino: 'Profundidad',
-      significado:
-        'número de variantes que la marca ofrece por cada producto en cada familia.',
+      termino: '<i>Hándicap</i>',
+      significado: 'Desventaja.',
     },
     {
-      termino: '<em>Retail</em>',
+      termino: '<i>Hard tag</i>',
       significado:
-        'concepto que se refiere a la venta al por menor o comercio minorista. Sistema de comercialización que entrega el producto al cliente.',
+        'dispositivo de seguridad o identificación electrónica que se adhiere a la mercancía y a las cajas de envío.',
     },
     {
-      termino: 'Señalización comercial',
-      significado:
-        'herramienta muy importante que ayuda a mejorar la información dentro del establecimiento, de tal forma que el visitante encuentre fácil el producto que necesita.',
+      termino: 'Higroscópico',
+      significado: 'que tiene la propiedad de absorber o exhalar la humedad.',
     },
     {
-      termino: 'Surtido',
+      termino: 'POS',
       significado:
-        'conjunto de productos ofertados por los diferentes establecimientos comerciales y que se encuentran dispuestos que el consumidor los compre.',
+        'terminal punto de venta (TPV), también denominado POS (<i>Point of Sale</i>, en inglés) es un dispositivo que en un establecimiento comercial permite gestionar tareas relacionadas con la venta.',
     },
     {
-      termino: 'Vitrinismo',
+      termino: 'Punto de pago',
       significado:
-        'técnicas y estrategias que se emplean en el diseño de un escaparate o vitrina con el fin de conquistar los clientes que transitan en el establecimiento, incitarlos e invitarlos a que realicen la compra de los productos exhibidos.',
+        'sitio donde están ubicadas las cajas registradoras en los establecimientos comerciales.',
+    },
+    {
+      termino: 'Recaudo',
+      significado: ' bien custodiado, en lugar seguro y controlado.',
+    },
+    {
+      termino: '<i>Tag’s</i>',
+      significado:
+        'etiqueta (lenguaje de marcado), en los lenguajes informáticos de marcado.',
+    },
+    {
+      termino: 'Transacciones',
+      significado:
+        'trato o convenio por el cual dos partes llegan a un acuerdo comercial, generalmente de compraventa.',
     },
   ],
   referencias: [
     {
       referencia:
-        'AA. VV. (2020). La comunicación en la sociedad digital: reputación, big data-audiencia y medios, ante un público. Esic Editorial.',
-      link: '',
+        'Actualícese. (2018). Cierre o arqueo de caja diario: errores y complicaciones que se pueden presentar en el proceso. ',
+      link:
+        'https://controlinventarios.wordpress.com/2018/12/11/la-complejidad-de-la-devolucion-de-mercancias/ ',
     },
     {
       referencia:
-        'Aranda, J. R. (2015). Marketing y promoción en el punto de venta. Editorial Elearning S.L.',
-      link: '',
+        'Clasificación de envases. (2017). Clasificación de los envases según su función. ',
+      link:
+        'https://clasificaciondeenvases.blogspot.com/2017/10/clasificacion-de-envases-en-funcion-de.html ',
     },
     {
       referencia:
-        'Borja, R. P. (2021). Merchadinsing. Teoría, práctica y estrategia. Esic Editorial.',
-      link: '',
+        'LogDist. (2020). Normas ISO para empaques y embalajes: las reglas de calidad. ',
+      link:
+        'https://es.vmalogdist.com/normas-iso-para-empaques-y-embalajes-las-reglas-de-calidad/ ',
     },
     {
-      referencia:
-        'Costa, J. (2007). Señalética corporativa. Costa Punto Com Editor (CPC).',
-      link: '',
-    },
-    {
-      referencia:
-        'Cruz, H. M. (2018). El arte de seducir. Merchandising. Ecoe Ediciones.',
-      link: '',
-    },
-    {
-      referencia:
-        'Kotler, P., y Armstrong, G. (2013). Fundaments de Marketing. Pearson Educación.',
-      link: '',
-    },
-    {
-      referencia:
-        'Martínez, M. B. (2016). Escaparatismo y diseño de espacios comerciales. Paraninfo.',
-      link: '',
-    },
-    {
-      referencia:
-        'Publicaciones Vértice S.L. (2010). Animación y presentación del producto en el punto de venta. Editorial Vértice.',
-      link: '',
-    },
-    {
-      referencia: 'Puente, A. M. (2004). Gestión por categorías. Netbiblo.',
-      link: '',
-    },
-    {
-      referencia:
-        'Salen, H. (1994). Los secretos del merchandising activo. Ediciones Díaz de Santos, S.A.',
-      link: '',
-    },
-    {
-      referencia:
-        'Vidal, F. J., Mas, J. J., y González, M. A. (2011). Sistemas de seguridad y confortabilidad. Editorial Editex.',
-      link: '',
-    },
-    {
-      referencia:
-        'Vigaray, M. D. (2005). Comercialización y retailing: distribución comercial aplicada. Pearson Educación.',
-      link: '',
+      referencia: 'UMNG. (s.f.) Empaque y embalaje. UMNG. ',
+      link:
+        'http://virtual.umng.edu.co/distancia/ecosistema/ovas/administracion_empresas/logistica/unidad_4/DM.pdf ',
     },
   ],
   creditos: [
@@ -339,14 +307,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Samuel Pinilla Hurtado',
-          cargo: 'Experto temático',
-          centro: 'Regional Antioquia - Centro de Comercio',
+          nombre: 'Esperanza Cardona Grisales',
+          cargo: 'Instructora ',
+          centro:
+            'Regional Valle – Centro de Gestión Tecnológica de Servicios CGTS',
         },
         {
-          nombre: 'Zvi Daniel Grosman',
+          nombre: 'Jaime Alberto Pérez Posada',
+          cargo: 'Instructor',
+          centro: 'Regional Antioquia - Centro de Comercio SENA',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman ',
           cargo: 'Diseñador instruccional',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja.',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja ',
         },
         {
           nombre: 'Carolina Coca Salazar',
@@ -354,15 +328,10 @@ export default {
           centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
         },
         {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
           centro:
-            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
-        },
-        {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
+            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
         },
       ],
     },
@@ -371,16 +340,16 @@ export default {
       autores: [
         {
           nombre: 'Marcos Yamid Rubiano Avellaneda',
-          cargo: 'Diseñadora de contenidos digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Leonardo Castellanos Rodriguez',
+          nombre: 'Leonardo Castellanos Rodríguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
@@ -391,12 +360,12 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Andrea Ardila Chaparro	',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
