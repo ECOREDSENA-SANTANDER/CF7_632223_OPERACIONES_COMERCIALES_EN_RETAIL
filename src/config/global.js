@@ -149,7 +149,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF7_632223_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -267,7 +267,7 @@ export default {
       referencia:
         'Actualícese. (2018). Cierre o arqueo de caja diario: errores y complicaciones que se pueden presentar en el proceso. ',
       link:
-        'https://controlinventarios.wordpress.com/2018/12/11/la-complejidad-de-la-devolucion-de-mercancias/ ',
+        'https://actualicese.com/archivo/cierre-o-arqueo-de-caja-diario-errores-y-complicaciones-que-se-pueden-presentar-en-el-proceso/',
     },
     {
       referencia:
@@ -299,7 +299,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -310,28 +310,28 @@ export default {
           nombre: 'Esperanza Cardona Grisales',
           cargo: 'Instructora ',
           centro:
-            'Regional Valle – Centro de Gestión Tecnológica de Servicios CGTS',
+            'Centro de Gestión Tecnológica de Servicios CGTS - Regional Valle',
         },
         {
           nombre: 'Jaime Alberto Pérez Posada',
           cargo: 'Instructor',
-          centro: 'Regional Antioquia - Centro de Comercio SENA',
+          centro: 'Centro de Comercio SENA - Regional Antioquia',
         },
         {
           nombre: 'Zvi Daniel Grosman ',
           cargo: 'Diseñador instruccional',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja ',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Diseñadora y evaluadora instruccional',
           centro:
-            'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -341,17 +341,17 @@ export default {
         {
           nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de contenidos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Leonardo Castellanos Rodríguez',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -361,12 +361,12 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Andrea Ardila Chaparro	',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

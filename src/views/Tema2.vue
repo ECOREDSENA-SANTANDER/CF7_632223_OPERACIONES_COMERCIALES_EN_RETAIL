@@ -92,7 +92,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .cajon.color-acento-contenido.p-4.mb-4
-          p Nota. Siempre se debe retirar y/o deshabilitar el #[em tag] del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
+          p Nota. Siempre se debe retirar y / o deshabilitar el #[em tag] del producto para evitar que se activen las alarmas en las salidas del almacén, incomodando al cliente.
     
     separador
     #t_2_1.titulo-segundo.mb-5
